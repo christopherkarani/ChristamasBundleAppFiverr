@@ -45,6 +45,14 @@ class CustomScene : SKScene {
         return spritenode
     }()
     
+    var redStarSprite_3: SKSpriteNode = {
+        let spritenode = SKSpriteNode(imageNamed: "redStar")
+        spritenode.name = "redStar_3"
+        spritenode.position = CGPoint(x: 102, y: 282)
+        spritenode.size = constantRedStarSize
+        return spritenode
+    }()
+    
     var goldStar_1: SKSpriteNode = {
         let goldStar = SKSpriteNode(imageNamed: "goldStar")
         goldStar.name = "goldStar_1"
@@ -55,9 +63,17 @@ class CustomScene : SKScene {
     
     var goldStar_2: SKSpriteNode = {
         let goldStar = SKSpriteNode(imageNamed: "goldStar")
-        goldStar.name = "goldStar_1"
+        goldStar.name = "goldStar_2"
         goldStar.size = constantGoldStarSize
         goldStar.position = CGPoint(x: 230, y: 500)
+        return goldStar
+    }()
+    
+    var goldStar_3: SKSpriteNode = {
+        let goldStar = SKSpriteNode(imageNamed: "goldStar")
+        goldStar.name = "goldStar_3"
+        goldStar.size = constantGoldStarSize
+        goldStar.position = CGPoint(x: 240, y: 367)
         return goldStar
     }()
     
@@ -73,11 +89,13 @@ class CustomScene : SKScene {
         guard isLoaded else { return }
         addstars(toScene: redStarSprite_1, withType: .red)
         addstars(toScene: redStarSprite_2, withType: .red)
+        addstars(toScene: redStarSprite_3, withType: .red)
         addstars(toScene: goldStar_1, withType: .gold)
         addstars(toScene: goldStar_2, withType: .gold)
+        addstars(toScene: goldStar_3, withType: .gold)
         addstars(toScene: largeStar, withType: .largeStar)
-        
         redStarRotation()
+        runLargeStarAction()
     }
     
     private func addstars(toScene child: SKSpriteNode, withType color: StarColor) {
@@ -130,12 +148,17 @@ class CustomScene : SKScene {
         
         
         let actions = SKAction.sequence([actionOne, waitAtion, actionTwo])
-        
-       
-
-        
         sprite.run(SKAction.repeatForever(actions))
         
+    }
+    
+    fileprivate func runLargeStarAction() {
+        let scaleBy: CGFloat = 1.5
+        let action = SKAction.scale(by: scaleBy, duration: 0.7)
+        let action2 = action.reversed()
+        let waitAction = SKAction.wait(forDuration: 3)
+        let actionSequence = SKAction.sequence([action, action2, waitAction])
+        largeStar.run(SKAction.repeatForever(actionSequence))
     }
     
     
