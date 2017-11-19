@@ -7,13 +7,32 @@
 //
 
 import UIKit
+import Magnetic
+import SpriteKit
 
 class ViewController: UIViewController {
 
+    var scene : CustomScene!
+    
+    
+    func setupCustomScene() {
+        scene = CustomScene(size: view.frame.size)
+        scene.scaleMode = .aspectFill
+        let skview = SKView(frame: self.view.bounds)
+        skview.presentScene(scene)
+        view.addSubview(skview)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupCustomScene()
+        navigationbarSetup()
     }
+    
+    fileprivate func navigationbarSetup () {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

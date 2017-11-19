@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808077A1FC198020071AD37 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180807791FC198020071AD37 /* Extensions.swift */; };
+		1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808077B1FC1A90D0071AD37 /* CustomScene.swift */; };
 		18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B51FBEC2720036F5D3 /* AppDelegate.swift */; };
 		18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B71FBEC2720036F5D3 /* ViewController.swift */; };
 		18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E900B91FBEC2720036F5D3 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		18E900C01FBEC2720036F5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E900BE1FBEC2720036F5D3 /* LaunchScreen.storyboard */; };
 		18E900CB1FBEC2730036F5D3 /* ChristamasBundleAppFiverrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900CA1FBEC2730036F5D3 /* ChristamasBundleAppFiverrTests.swift */; };
 		18E900D61FBEC2730036F5D3 /* ChristamasBundleAppFiverrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900D51FBEC2730036F5D3 /* ChristamasBundleAppFiverrUITests.swift */; };
+		8BB8C12F927DB0E12DCD1203 /* Pods_ChristamasBundleAppFiverr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BE5D51890E762C906F8519 /* Pods_ChristamasBundleAppFiverr.framework */; };
+		9D64E304B6D04AF5C8A8AF4E /* Pods_ChristamasBundleAppFiverrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB5C336873179B4DE0B6B09 /* Pods_ChristamasBundleAppFiverrUITests.framework */; };
+		D843221C441BEE7E6FDC582C /* Pods_ChristamasBundleAppFiverrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD2ED0B167FBF28636467B6 /* Pods_ChristamasBundleAppFiverrTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180807791FC198020071AD37 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1808077B1FC1A90D0071AD37 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 		18E900B21FBEC2720036F5D3 /* ChristamasBundleAppFiverr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristamasBundleAppFiverr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E900B51FBEC2720036F5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E900B71FBEC2720036F5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		18E900D11FBEC2730036F5D3 /* ChristamasBundleAppFiverrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristamasBundleAppFiverrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E900D51FBEC2730036F5D3 /* ChristamasBundleAppFiverrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristamasBundleAppFiverrUITests.swift; sourceTree = "<group>"; };
 		18E900D71FBEC2730036F5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB5C336873179B4DE0B6B09 /* Pods_ChristamasBundleAppFiverrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristamasBundleAppFiverrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD2ED0B167FBF28636467B6 /* Pods_ChristamasBundleAppFiverrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristamasBundleAppFiverrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A532DF3D95B12599315C281 /* Pods-ChristamasBundleAppFiverrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverrTests/Pods-ChristamasBundleAppFiverrTests.release.xcconfig"; sourceTree = "<group>"; };
+		67EADA76A043E9219535A5CD /* Pods-ChristamasBundleAppFiverrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverrUITests/Pods-ChristamasBundleAppFiverrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		863D19AAA3CAEF79EE3AE104 /* Pods-ChristamasBundleAppFiverrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverrTests/Pods-ChristamasBundleAppFiverrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3BE5D51890E762C906F8519 /* Pods_ChristamasBundleAppFiverr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristamasBundleAppFiverr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC660CB0DD392A6AE3FC31B2 /* Pods-ChristamasBundleAppFiverr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverr.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverr/Pods-ChristamasBundleAppFiverr.release.xcconfig"; sourceTree = "<group>"; };
+		E2BDA4FA2ECCE773E29257C3 /* Pods-ChristamasBundleAppFiverrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverrUITests/Pods-ChristamasBundleAppFiverrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD77D992ED8604D8817E0D32 /* Pods-ChristamasBundleAppFiverr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristamasBundleAppFiverr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristamasBundleAppFiverr/Pods-ChristamasBundleAppFiverr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB8C12F927DB0E12DCD1203 /* Pods_ChristamasBundleAppFiverr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D843221C441BEE7E6FDC582C /* Pods_ChristamasBundleAppFiverrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D64E304B6D04AF5C8A8AF4E /* Pods_ChristamasBundleAppFiverrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1808077D1FC1A94B0071AD37 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1808077B1FC1A90D0071AD37 /* CustomScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		18E900A91FBEC2720036F5D3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				18E900C91FBEC2730036F5D3 /* ChristamasBundleAppFiverrTests */,
 				18E900D41FBEC2730036F5D3 /* ChristamasBundleAppFiverrUITests */,
 				18E900B31FBEC2720036F5D3 /* Products */,
+				1E96E30D574B75BF7001AEF4 /* Pods */,
+				4E246FD11552B79B4A5D2A19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,14 @@
 		18E900B41FBEC2720036F5D3 /* ChristamasBundleAppFiverr */ = {
 			isa = PBXGroup;
 			children = (
+				1808077D1FC1A94B0071AD37 /* Scenes */,
 				18E900B51FBEC2720036F5D3 /* AppDelegate.swift */,
 				18E900B71FBEC2720036F5D3 /* ViewController.swift */,
 				18E900B91FBEC2720036F5D3 /* Main.storyboard */,
 				18E900BC1FBEC2720036F5D3 /* Assets.xcassets */,
 				18E900BE1FBEC2720036F5D3 /* LaunchScreen.storyboard */,
 				18E900C11FBEC2720036F5D3 /* Info.plist */,
+				180807791FC198020071AD37 /* Extensions.swift */,
 			);
 			path = ChristamasBundleAppFiverr;
 			sourceTree = "<group>";
@@ -125,6 +156,29 @@
 			path = ChristamasBundleAppFiverrUITests;
 			sourceTree = "<group>";
 		};
+		1E96E30D574B75BF7001AEF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD77D992ED8604D8817E0D32 /* Pods-ChristamasBundleAppFiverr.debug.xcconfig */,
+				BC660CB0DD392A6AE3FC31B2 /* Pods-ChristamasBundleAppFiverr.release.xcconfig */,
+				863D19AAA3CAEF79EE3AE104 /* Pods-ChristamasBundleAppFiverrTests.debug.xcconfig */,
+				5A532DF3D95B12599315C281 /* Pods-ChristamasBundleAppFiverrTests.release.xcconfig */,
+				E2BDA4FA2ECCE773E29257C3 /* Pods-ChristamasBundleAppFiverrUITests.debug.xcconfig */,
+				67EADA76A043E9219535A5CD /* Pods-ChristamasBundleAppFiverrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E246FD11552B79B4A5D2A19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3BE5D51890E762C906F8519 /* Pods_ChristamasBundleAppFiverr.framework */,
+				3FD2ED0B167FBF28636467B6 /* Pods_ChristamasBundleAppFiverrTests.framework */,
+				3FB5C336873179B4DE0B6B09 /* Pods_ChristamasBundleAppFiverrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E900DA1FBEC2730036F5D3 /* Build configuration list for PBXNativeTarget "ChristamasBundleAppFiverr" */;
 			buildPhases = (
+				1392CB70FB7B72DA52EB7D2C /* [CP] Check Pods Manifest.lock */,
 				18E900AE1FBEC2720036F5D3 /* Sources */,
 				18E900AF1FBEC2720036F5D3 /* Frameworks */,
 				18E900B01FBEC2720036F5D3 /* Resources */,
+				01C141CC71B98190AB05A050 /* [CP] Embed Pods Frameworks */,
+				355642A23B44426E264A1B90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E900DD1FBEC2730036F5D3 /* Build configuration list for PBXNativeTarget "ChristamasBundleAppFiverrTests" */;
 			buildPhases = (
+				8732E37F8F2655ADDB08B9AD /* [CP] Check Pods Manifest.lock */,
 				18E900C21FBEC2720036F5D3 /* Sources */,
 				18E900C31FBEC2720036F5D3 /* Frameworks */,
 				18E900C41FBEC2720036F5D3 /* Resources */,
+				692635DF84E636931C746A23 /* [CP] Embed Pods Frameworks */,
+				32BCF61BA303C74DEC5061E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E900E01FBEC2730036F5D3 /* Build configuration list for PBXNativeTarget "ChristamasBundleAppFiverrUITests" */;
 			buildPhases = (
+				52F70F9A336752EB12830E0A /* [CP] Check Pods Manifest.lock */,
 				18E900CD1FBEC2730036F5D3 /* Sources */,
 				18E900CE1FBEC2730036F5D3 /* Frameworks */,
 				18E900CF1FBEC2730036F5D3 /* Resources */,
+				6C1C483AB58A83B8D200D0B5 /* [CP] Embed Pods Frameworks */,
+				A28F9B0FAF97B1520162A18E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +317,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C141CC71B98190AB05A050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverr/Pods-ChristamasBundleAppFiverr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Magnetic/Magnetic.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnetic.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverr/Pods-ChristamasBundleAppFiverr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1392CB70FB7B72DA52EB7D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChristamasBundleAppFiverr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32BCF61BA303C74DEC5061E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverrTests/Pods-ChristamasBundleAppFiverrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355642A23B44426E264A1B90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverr/Pods-ChristamasBundleAppFiverr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F70F9A336752EB12830E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChristamasBundleAppFiverrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692635DF84E636931C746A23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverrTests/Pods-ChristamasBundleAppFiverrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1C483AB58A83B8D200D0B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverrUITests/Pods-ChristamasBundleAppFiverrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8732E37F8F2655ADDB08B9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChristamasBundleAppFiverrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28F9B0FAF97B1520162A18E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristamasBundleAppFiverrUITests/Pods-ChristamasBundleAppFiverrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18E900AE1FBEC2720036F5D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */,
+				1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */,
+				1808077A1FC198020071AD37 /* Extensions.swift in Sources */,
 				18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +639,13 @@
 		};
 		18E900DB1FBEC2730036F5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD77D992ED8604D8817E0D32 /* Pods-ChristamasBundleAppFiverr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTSZ26LN83;
 				INFOPLIST_FILE = ChristamasBundleAppFiverr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbk.ChristamasBundleAppFiverr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +656,13 @@
 		};
 		18E900DC1FBEC2730036F5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC660CB0DD392A6AE3FC31B2 /* Pods-ChristamasBundleAppFiverr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTSZ26LN83;
 				INFOPLIST_FILE = ChristamasBundleAppFiverr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbk.ChristamasBundleAppFiverr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +673,7 @@
 		};
 		18E900DE1FBEC2730036F5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863D19AAA3CAEF79EE3AE104 /* Pods-ChristamasBundleAppFiverrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +690,7 @@
 		};
 		18E900DF1FBEC2730036F5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A532DF3D95B12599315C281 /* Pods-ChristamasBundleAppFiverrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +707,7 @@
 		};
 		18E900E11FBEC2730036F5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BDA4FA2ECCE773E29257C3 /* Pods-ChristamasBundleAppFiverrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +723,7 @@
 		};
 		18E900E21FBEC2730036F5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EADA76A043E9219535A5CD /* Pods-ChristamasBundleAppFiverrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
