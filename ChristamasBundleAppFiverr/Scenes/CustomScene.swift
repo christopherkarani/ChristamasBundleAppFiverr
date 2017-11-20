@@ -105,14 +105,14 @@ class CustomScene : SKScene {
     override init(size: CGSize) {
         super.init(size: size)
         
-        setupEmitter()
+        
     }
     
     private func setupEmitter() {
-        guard (view != nil) else { return }
-        let animationLayer = CAEmitterLayer()
+        let animationLayer = Emitter.startEmission(withImage: #imageLiteral(resourceName: "snow").withRenderingMode(.alwaysOriginal))
         animationLayer.position = CGPoint(x: view!.frame.midX, y: 0)
-        animationLayer.emitterSize = CGSize(width: 50, height: 50)
+        animationLayer.emitterSize = CGSize(width: (self.view?.frame.width)!, height: 2)
+        view?.layer.addSublayer(animationLayer)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -185,6 +185,7 @@ class CustomScene : SKScene {
         isLoaded = true
         setupSceneBackground()
         sceneSetup()
+        setupEmitter()
         
         if let redS = self.childNode(withName: "redStar") {
             print(redS.position)
