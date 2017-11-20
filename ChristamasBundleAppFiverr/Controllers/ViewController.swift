@@ -10,14 +10,28 @@ import UIKit
 import Magnetic
 import SpriteKit
 
-class ViewController: UIViewController {
+protocol ViewControllerDelegate: class {
+    func presentPurchsesViewController()
+}
 
+class ViewController: UIViewController, ViewControllerDelegate {
+   
+    
+    func presentPurchsesViewController() {
+        let purchasesVC = PurchasesViewController()
+        let navController = UINavigationController(rootViewController: purchasesVC)
+        present(navController, animated: true) {
+            print("done")
+        }
+    }
+    
     var scene : CustomScene!
 
     func setupCustomScene() {
         
         let spritekitView = SKView(frame: view.bounds)
         scene = CustomScene(size: spritekitView.frame.size)
+        scene.viewConrollerDelegate = self
         scene.scaleMode = .aspectFill
         spritekitView.presentScene(scene)
         view.addSubview(spritekitView)

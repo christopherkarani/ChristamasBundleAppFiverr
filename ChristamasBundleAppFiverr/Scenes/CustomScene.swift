@@ -30,6 +30,8 @@ class CustomScene : SKScene {
     var goldStarSprites: [SKSpriteNode] = []
     var largeStarSprties: [SKSpriteNode] = []
     
+    weak var viewConrollerDelegate : ViewControllerDelegate?
+    
      var smallRedStarSprite_1: SKSpriteNode = {
         let sprite = SKSpriteNode(imageNamed: "redStar")
         sprite.name = "redStar_1"
@@ -102,8 +104,49 @@ class CustomScene : SKScene {
         return view
     }()
     
+    let buttonView : UIView = {
+        let buttonView = UIView()
+        buttonView.backgroundColor = .clear
+        buttonView.translatesAutoresizingMaskIntoConstraints = false
+        return buttonView
+    }()
+    
+    lazy var purchaseButton : UIButton = { [weak self] in
+        let button = UIButton(type: .system)
+        button.setTitle("Shop", for: .normal)
+        button.titleLabel?.textColor = .white
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        button.layer.cornerRadius = 5
+        button.clipsToBounds = true
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .red
+        button.addTarget(self, action: #selector(handleButtonTap), for: .touchUpInside)
+        return button
+    }()
+    
+    
+    @objc
+    func handleButtonTap() {
+        viewConrollerDelegate?.presentPurchsesViewController()
+    }
+    
+    fileprivate func handleSetupButton() {
+        view?.addSubview(buttonView)
+        buttonView.leftAnchor.constraint(equalTo: view!.leftAnchor, constant: 250).isActive = true
+        buttonView.bottomAnchor.constraint(equalTo: view!.bottomAnchor, constant: -550).isActive = true
+        buttonView.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        buttonView.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        buttonView.addSubview(purchaseButton)
+        purchaseButton.topAnchor.constraint(equalTo: buttonView.topAnchor).isActive = true
+        purchaseButton.bottomAnchor.constraint(equalTo: buttonView.bottomAnchor).isActive = true
+        purchaseButton.rightAnchor.constraint(equalTo: buttonView.rightAnchor).isActive = true
+        purchaseButton.leftAnchor.constraint(equalTo: buttonView.leftAnchor).isActive = true
+    }
+    
     override init(size: CGSize) {
         super.init(size: size)
+        
         
         
     }
@@ -143,12 +186,15 @@ class CustomScene : SKScene {
         magnetic = magneticView.magnetic
         
         let node = Node(text: "Purchase", image: nil, color: .red, radius: 30)
+        node.name = "purchaseNode"
         magnetic?.addChild(node)
         
         let node2 = Node(text: "Free", image: nil, color: .yellow, radius: 30)
         magnetic?.addChild(node2)
         magnetic?.view?.backgroundColor = .clear
         magnetic?.backgroundColor = .clear
+        magnetic?.magneticDelegate = self
+        handleSetupButton()
   
     }
     
@@ -242,7 +288,10 @@ class CustomScene : SKScene {
     }
     var myTouches : [CGPoint] = []
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+        for t in touches {
+            myTouches.append(t.location(in: self))
+            
+        }
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -251,23 +300,20 @@ class CustomScene : SKScene {
 }
 extension CustomScene: MagneticDelegate {
     public func magnetic(_ magnetic: Magnetic, didSelect node: Node) {
-        print(node)
+        if node.name == "purchaseNode" {
+           presentSoundsScene()
+        }
     }
+    
+    func presentSoundsScene() {
+        let soundsScene = SoundsScene(size: view!.frame.size)
+        view?.presentScene(soundsScene, transition: .crossFade(withDuration: 1))
+    }
+    
+    
     
     public func magnetic(_ magnetic: Magnetic, didDeselect node: Node) {
         print(node)
     }
 }
 
-class ImageNode : Node {
-    override init(text: String?, image: UIImage?, color: UIColor, radius: CGFloat) {
-        super.init(text: nil, image: image, color: color, radius: radius)
-        
-    }
-    
-    
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-}
