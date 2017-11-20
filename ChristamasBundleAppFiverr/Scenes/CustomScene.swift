@@ -22,7 +22,6 @@ enum StarColor {
 }
 
 class CustomScene : SKScene {
-    var magneticDelegate : MagneticDelegate?
     var isLoaded = false
     
     var magnetic : Magnetic?
@@ -97,16 +96,31 @@ class CustomScene : SKScene {
     
     let containerViewSize = CGSize(width: UIScreen.main.bounds.width, height: 130)
     var containerView : UIView = {
-        let node = UIView()
-        node.backgroundColor = .clear
-        node.translatesAutoresizingMaskIntoConstraints = false
-        return node
+        let view = UIView()
+        view.backgroundColor = .clear
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
     }()
     
+    override init(size: CGSize) {
+        super.init(size: size)
+        
+        setupEmitter()
+    }
     
+    private func setupEmitter() {
+        guard (view != nil) else { return }
+        let animationLayer = CAEmitterLayer()
+        animationLayer.position = CGPoint(x: view!.frame.midX, y: 0)
+        animationLayer.emitterSize = CGSize(width: 50, height: 50)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     fileprivate func containerViewSetup() {
-    
+
         let containerViewposition = CGPoint(x: view!.frame.midX, y: 255)
         view?.addSubview(containerView)
         containerView.centerXAnchor.constraint(equalTo: view!.centerXAnchor).isActive = true
@@ -128,8 +142,11 @@ class CustomScene : SKScene {
         
         magnetic = magneticView.magnetic
         
-        let node = Node(text: "Purchase", image: nil, color: .red, radius: 40)
+        let node = Node(text: "Purchase", image: nil, color: .red, radius: 30)
         magnetic?.addChild(node)
+        
+        let node2 = Node(text: "Free", image: nil, color: .yellow, radius: 30)
+        magnetic?.addChild(node2)
         magnetic?.view?.backgroundColor = .clear
         magnetic?.backgroundColor = .clear
   
@@ -165,7 +182,6 @@ class CustomScene : SKScene {
     }
     
     override func didMove(to view: SKView) {
-        magneticDelegate = self
         isLoaded = true
         setupSceneBackground()
         sceneSetup()
@@ -232,13 +248,25 @@ class CustomScene : SKScene {
         
     }
 }
-
 extension CustomScene: MagneticDelegate {
-    func magnetic(_ magnetic: Magnetic, didSelect node: Node) {
+    public func magnetic(_ magnetic: Magnetic, didSelect node: Node) {
         print(node)
     }
     
-    func magnetic(_ magnetic: Magnetic, didDeselect node: Node) {
+    public func magnetic(_ magnetic: Magnetic, didDeselect node: Node) {
         print(node)
+    }
+}
+
+class ImageNode : Node {
+    override init(text: String?, image: UIImage?, color: UIColor, radius: CGFloat) {
+        super.init(text: nil, image: image, color: color, radius: radius)
+        
+    }
+    
+    
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }

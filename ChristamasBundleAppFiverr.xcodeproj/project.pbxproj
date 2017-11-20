@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1808077A1FC198020071AD37 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180807791FC198020071AD37 /* Extensions.swift */; };
 		1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808077B1FC1A90D0071AD37 /* CustomScene.swift */; };
+		181E81591FC3574300F70061 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E81581FC3574300F70061 /* Emitter.swift */; };
 		18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B51FBEC2720036F5D3 /* AppDelegate.swift */; };
 		18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B71FBEC2720036F5D3 /* ViewController.swift */; };
 		18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E900B91FBEC2720036F5D3 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		180807791FC198020071AD37 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1808077B1FC1A90D0071AD37 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+		181E81581FC3574300F70061 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
 		18E900B21FBEC2720036F5D3 /* ChristamasBundleAppFiverr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristamasBundleAppFiverr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E900B51FBEC2720036F5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E900B71FBEC2720036F5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				1808077B1FC1A90D0071AD37 /* CustomScene.swift */,
+				181E81581FC3574300F70061 /* Emitter.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */,
 				1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */,
 				1808077A1FC198020071AD37 /* Extensions.swift in Sources */,
+				181E81591FC3574300F70061 /* Emitter.swift in Sources */,
 				18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

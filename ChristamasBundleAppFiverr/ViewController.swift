@@ -13,14 +13,14 @@ import SpriteKit
 class ViewController: UIViewController {
 
     var scene : CustomScene!
-    
-    
+
     func setupCustomScene() {
-        scene = CustomScene(size: view.frame.size)
+        
+        let spritekitView = SKView(frame: view.bounds)
+        scene = CustomScene(size: spritekitView.frame.size)
         scene.scaleMode = .aspectFill
-        let skview = SKView(frame: self.view.bounds)
-        skview.presentScene(scene)
-        view.addSubview(skview)
+        spritekitView.presentScene(scene)
+        view.addSubview(spritekitView)
     }
     
     override func viewDidLoad() {
