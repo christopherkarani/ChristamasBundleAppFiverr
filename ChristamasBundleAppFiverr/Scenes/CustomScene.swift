@@ -8,8 +8,10 @@
 
 import SpriteKit
 import GameplayKit
+import Magnetic
 
 let constantRedStarSize = CGSize(width: 45, height: 45)
+let smallRedStarSize = CGSize(width: 20, height: 20)
 let constantGoldStarSize = CGSize(width: 55, height: 55)
 let largeStarSize = CGSize(width: 70, height: 70)
 
@@ -20,20 +22,20 @@ enum StarColor {
 }
 
 class CustomScene : SKScene {
-    
+    var magneticDelegate : MagneticDelegate?
     var isLoaded = false
     
-
+    var magnetic : Magnetic?
     
     var redStarSprites : [SKSpriteNode] = []
     var goldStarSprites: [SKSpriteNode] = []
     var largeStarSprties: [SKSpriteNode] = []
     
-     var redStarSprite_1: SKSpriteNode = {
+     var smallRedStarSprite_1: SKSpriteNode = {
         let sprite = SKSpriteNode(imageNamed: "redStar")
         sprite.name = "redStar_1"
-        sprite.position = CGPoint(x: 256, y: 278)
-        sprite.size = constantRedStarSize
+        sprite.position = CGPoint(x: 160, y: 526)
+        sprite.size = smallRedStarSize
         return sprite
     }()
     
@@ -45,11 +47,19 @@ class CustomScene : SKScene {
         return spritenode
     }()
     
-    var redStarSprite_3: SKSpriteNode = {
+    var smallRedStarSprite_3: SKSpriteNode = {
         let spritenode = SKSpriteNode(imageNamed: "redStar")
         spritenode.name = "redStar_3"
-        spritenode.position = CGPoint(x: 102, y: 282)
-        spritenode.size = constantRedStarSize
+        spritenode.position = CGPoint(x: 230, y: 422)
+        spritenode.size = smallRedStarSize
+        return spritenode
+    }()
+    
+    var smallRedStarSprite_4: SKSpriteNode = {
+        let spritenode = SKSpriteNode(imageNamed: "redStar")
+        spritenode.name = "redStar_3"
+        spritenode.position = CGPoint(x: 155, y: 397)
+        spritenode.size = smallRedStarSize
         return spritenode
     }()
     
@@ -85,17 +95,60 @@ class CustomScene : SKScene {
         return sprite
     }()
     
+    let containerViewSize = CGSize(width: UIScreen.main.bounds.width, height: 130)
+    var containerView : UIView = {
+        let node = UIView()
+        node.backgroundColor = .clear
+        node.translatesAutoresizingMaskIntoConstraints = false
+        return node
+    }()
+    
+    
+    
+    fileprivate func containerViewSetup() {
+    
+        let containerViewposition = CGPoint(x: view!.frame.midX, y: 255)
+        view?.addSubview(containerView)
+        containerView.centerXAnchor.constraint(equalTo: view!.centerXAnchor).isActive = true
+        containerView.bottomAnchor.constraint(equalTo: view!.bottomAnchor, constant: -220).isActive = true
+        containerView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
+        containerView.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        
+        
+        let magneticView = MagneticView(frame: containerView.frame)
+        containerView.addSubview(magneticView)
+        
+        magneticView.translatesAutoresizingMaskIntoConstraints = false
+        
+        magneticView.topAnchor.constraint(equalTo: containerView.topAnchor).isActive = true
+        magneticView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
+        magneticView.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
+        magneticView.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
+        magneticView.backgroundColor = .clear
+        
+        magnetic = magneticView.magnetic
+        
+        let node = Node(text: "Purchase", image: nil, color: .red, radius: 40)
+        magnetic?.addChild(node)
+        magnetic?.view?.backgroundColor = .clear
+        magnetic?.backgroundColor = .clear
+  
+    }
+    
+    
     func sceneSetup() {
         guard isLoaded else { return }
-        addstars(toScene: redStarSprite_1, withType: .red)
+        addstars(toScene: smallRedStarSprite_1, withType: .red)
         addstars(toScene: redStarSprite_2, withType: .red)
-        addstars(toScene: redStarSprite_3, withType: .red)
+        addstars(toScene: smallRedStarSprite_3, withType: .red)
+        addstars(toScene: smallRedStarSprite_4, withType: .red)
         addstars(toScene: goldStar_1, withType: .gold)
         addstars(toScene: goldStar_2, withType: .gold)
         addstars(toScene: goldStar_3, withType: .gold)
         addstars(toScene: largeStar, withType: .largeStar)
         redStarRotation()
         runLargeStarAction()
+        containerViewSetup()
     }
     
     private func addstars(toScene child: SKSpriteNode, withType color: StarColor) {
@@ -112,6 +165,7 @@ class CustomScene : SKScene {
     }
     
     override func didMove(to view: SKView) {
+        magneticDelegate = self
         isLoaded = true
         setupSceneBackground()
         sceneSetup()
@@ -171,13 +225,20 @@ class CustomScene : SKScene {
     }
     var myTouches : [CGPoint] = []
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touches = touches.map { (touch) -> CGPoint in
-            let touch = touch.location(in: self)
-            myTouches.append(touch)
-            return touch
-        }
+        
     }
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+    }
+}
 
+extension CustomScene: MagneticDelegate {
+    func magnetic(_ magnetic: Magnetic, didSelect node: Node) {
+        print(node)
+    }
+    
+    func magnetic(_ magnetic: Magnetic, didDeselect node: Node) {
+        print(node)
     }
 }
