@@ -188,9 +188,7 @@ class CustomScene : SKScene {
         let node = Node(text: "Purchase", image: nil, color: .red, radius: 30)
         node.name = "purchaseNode"
         magnetic?.addChild(node)
-        
-        let node2 = Node(text: "Free", image: nil, color: .yellow, radius: 30)
-        magnetic?.addChild(node2)
+
         magnetic?.view?.backgroundColor = .clear
         magnetic?.backgroundColor = .clear
         magnetic?.magneticDelegate = self
@@ -301,14 +299,14 @@ class CustomScene : SKScene {
 extension CustomScene: MagneticDelegate {
     public func magnetic(_ magnetic: Magnetic, didSelect node: Node) {
         if node.name == "purchaseNode" {
-           presentSoundsScene()
+//           presentSoundsScene()
         }
     }
     
-    func presentSoundsScene() {
-        let soundsScene = SoundsScene(size: view!.frame.size)
-        view?.presentScene(soundsScene, transition: .crossFade(withDuration: 1))
-    }
+//    func presentSoundsScene() {
+//        let soundsScene = SoundsScene(size: view!.frame.size)
+//        view?.presentScene(soundsScene, transition: .crossFade(withDuration: 1))
+//    }
     
     
     

@@ -107,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				1808077B1FC1A90D0071AD37 /* CustomScene.swift */,
-				181E81581FC3574300F70061 /* Emitter.swift */,
 				18E2747F1FC37869000259BA /* SoundsScene.swift */,
 			);
 			path = Scenes;
@@ -130,6 +129,14 @@
 				180807791FC198020071AD37 /* Extensions.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		18E274871FC38055000259BA /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				181E81581FC3574300F70061 /* Emitter.swift */,
+			);
+			path = Emitter;
 			sourceTree = "<group>";
 		};
 		18E900A91FBEC2720036F5D3 = {
@@ -157,6 +164,7 @@
 		18E900B41FBEC2720036F5D3 /* ChristamasBundleAppFiverr */ = {
 			isa = PBXGroup;
 			children = (
+				18E274871FC38055000259BA /* Emitter */,
 				18E274841FC37D80000259BA /* Helper */,
 				18E274831FC37D6C000259BA /* Controllers */,
 				1808077D1FC1A94B0071AD37 /* Scenes */,
