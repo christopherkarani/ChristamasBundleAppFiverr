@@ -12,7 +12,8 @@
 		181E81591FC3574300F70061 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E81581FC3574300F70061 /* Emitter.swift */; };
 		18E2747E1FC36D8D000259BA /* CKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2747D1FC36D8D000259BA /* CKButton.swift */; };
 		18E274801FC37869000259BA /* SoundsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2747F1FC37869000259BA /* SoundsScene.swift */; };
-		18E274821FC37B38000259BA /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E274811FC37B38000259BA /* Purchases.swift */; };
+		18E274821FC37B38000259BA /* PurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E274811FC37B38000259BA /* PurchasesViewController.swift */; };
+		18E274861FC37F87000259BA /* soundboard recording in Resources */ = {isa = PBXBuildFile; fileRef = 18E274851FC37F86000259BA /* soundboard recording */; };
 		18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B51FBEC2720036F5D3 /* AppDelegate.swift */; };
 		18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B71FBEC2720036F5D3 /* ViewController.swift */; };
 		18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E900B91FBEC2720036F5D3 /* Main.storyboard */; };
@@ -48,7 +49,8 @@
 		181E81581FC3574300F70061 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
 		18E2747D1FC36D8D000259BA /* CKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKButton.swift; sourceTree = "<group>"; };
 		18E2747F1FC37869000259BA /* SoundsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsScene.swift; sourceTree = "<group>"; };
-		18E274811FC37B38000259BA /* Purchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
+		18E274811FC37B38000259BA /* PurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
+		18E274851FC37F86000259BA /* soundboard recording */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "soundboard recording"; sourceTree = "<group>"; };
 		18E900B21FBEC2720036F5D3 /* ChristamasBundleAppFiverr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristamasBundleAppFiverr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E900B51FBEC2720036F5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E900B71FBEC2720036F5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				18E900B71FBEC2720036F5D3 /* ViewController.swift */,
-				18E274811FC37B38000259BA /* Purchases.swift */,
+				18E274811FC37B38000259BA /* PurchasesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,6 +161,7 @@
 				18E274831FC37D6C000259BA /* Controllers */,
 				1808077D1FC1A94B0071AD37 /* Scenes */,
 				18E900B91FBEC2720036F5D3 /* Main.storyboard */,
+				18E274851FC37F86000259BA /* soundboard recording */,
 				18E900BC1FBEC2720036F5D3 /* Assets.xcassets */,
 				18E900BE1FBEC2720036F5D3 /* LaunchScreen.storyboard */,
 				18E900C11FBEC2720036F5D3 /* Info.plist */,
@@ -325,6 +328,7 @@
 			files = (
 				18E900C01FBEC2720036F5D3 /* LaunchScreen.storyboard in Resources */,
 				18E900BD1FBEC2720036F5D3 /* Assets.xcassets in Resources */,
+				18E274861FC37F87000259BA /* soundboard recording in Resources */,
 				18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,7 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E274821FC37B38000259BA /* Purchases.swift in Sources */,
+				18E274821FC37B38000259BA /* PurchasesViewController.swift in Sources */,
 				18E274801FC37869000259BA /* SoundsScene.swift in Sources */,
 				18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */,
 				1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */,
