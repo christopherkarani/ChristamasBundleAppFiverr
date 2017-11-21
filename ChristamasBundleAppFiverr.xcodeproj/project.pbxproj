@@ -13,7 +13,109 @@
 		18E2747E1FC36D8D000259BA /* CKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2747D1FC36D8D000259BA /* CKButton.swift */; };
 		18E274801FC37869000259BA /* SoundsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2747F1FC37869000259BA /* SoundsScene.swift */; };
 		18E274821FC37B38000259BA /* PurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E274811FC37B38000259BA /* PurchasesViewController.swift */; };
-		18E274861FC37F87000259BA /* soundboard recording in Resources */ = {isa = PBXBuildFile; fileRef = 18E274851FC37F86000259BA /* soundboard recording */; };
+		18E274891FC40F7A000259BA /* PreviewSongsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E274881FC40F7A000259BA /* PreviewSongsController.swift */; };
+		18E274F11FC43844000259BA /* Recording (5).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2748B1FC4381A000259BA /* Recording (5).m4a */; };
+		18E274F21FC43844000259BA /* Recording (84).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2748C1FC4381A000259BA /* Recording (84).m4a */; };
+		18E274F31FC43844000259BA /* Recording (14).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2748D1FC4381B000259BA /* Recording (14).m4a */; };
+		18E274F41FC43844000259BA /* Recording (16).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2748E1FC4381B000259BA /* Recording (16).m4a */; };
+		18E274F51FC43844000259BA /* Recording (79).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2748F1FC4381B000259BA /* Recording (79).m4a */; };
+		18E274F61FC43844000259BA /* Recording (63).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274901FC4381C000259BA /* Recording (63).m4a */; };
+		18E274F71FC43844000259BA /* Recording (70).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274911FC4381C000259BA /* Recording (70).m4a */; };
+		18E274F81FC43844000259BA /* Recording (79)_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274921FC4381C000259BA /* Recording (79)_1.m4a */; };
+		18E274F91FC43844000259BA /* Recording (20).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274931FC4381D000259BA /* Recording (20).m4a */; };
+		18E274FA1FC43844000259BA /* Recording (8).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274941FC4381E000259BA /* Recording (8).m4a */; };
+		18E274FB1FC43844000259BA /* Recording (45).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274951FC4381F000259BA /* Recording (45).m4a */; };
+		18E274FC1FC43844000259BA /* Recording (82).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274961FC4381F000259BA /* Recording (82).m4a */; };
+		18E274FD1FC43844000259BA /* Recording (56).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274971FC4381F000259BA /* Recording (56).m4a */; };
+		18E274FE1FC43844000259BA /* Recording (67).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274981FC43820000259BA /* Recording (67).m4a */; };
+		18E274FF1FC43844000259BA /* Recording (91).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274991FC43820000259BA /* Recording (91).m4a */; };
+		18E275001FC43844000259BA /* Recording (64).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749A1FC43821000259BA /* Recording (64).m4a */; };
+		18E275011FC43844000259BA /* Recording (7).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749B1FC43821000259BA /* Recording (7).m4a */; };
+		18E275021FC43844000259BA /* Recording (51).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749C1FC43822000259BA /* Recording (51).m4a */; };
+		18E275031FC43844000259BA /* Recording (54).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749D1FC43822000259BA /* Recording (54).m4a */; };
+		18E275041FC43844000259BA /* Recording (24).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749E1FC43822000259BA /* Recording (24).m4a */; };
+		18E275051FC43844000259BA /* Recording (22).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E2749F1FC43823000259BA /* Recording (22).m4a */; };
+		18E275061FC43844000259BA /* Recording (32).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A01FC43823000259BA /* Recording (32).m4a */; };
+		18E275071FC43844000259BA /* Recording (85).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A11FC43824000259BA /* Recording (85).m4a */; };
+		18E275081FC43844000259BA /* Recording (11).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A21FC43825000259BA /* Recording (11).m4a */; };
+		18E275091FC43844000259BA /* Recording (40).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A31FC43826000259BA /* Recording (40).m4a */; };
+		18E2750A1FC43844000259BA /* Recording (62).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A41FC43826000259BA /* Recording (62).m4a */; };
+		18E2750B1FC43844000259BA /* Recording (3).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A51FC43826000259BA /* Recording (3).m4a */; };
+		18E2750C1FC43844000259BA /* Recording (83).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A61FC43827000259BA /* Recording (83).m4a */; };
+		18E2750D1FC43844000259BA /* Recording (68).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A71FC43827000259BA /* Recording (68).m4a */; };
+		18E2750E1FC43844000259BA /* Recording (93).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A81FC43827000259BA /* Recording (93).m4a */; };
+		18E2750F1FC43844000259BA /* Recording (13).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274A91FC43827000259BA /* Recording (13).m4a */; };
+		18E275101FC43844000259BA /* Recording (39).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AA1FC43828000259BA /* Recording (39).m4a */; };
+		18E275111FC43844000259BA /* Recording (12).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AB1FC43828000259BA /* Recording (12).m4a */; };
+		18E275121FC43844000259BA /* Recording (17).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AC1FC43828000259BA /* Recording (17).m4a */; };
+		18E275131FC43844000259BA /* Recording (57).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AD1FC43829000259BA /* Recording (57).m4a */; };
+		18E275141FC43844000259BA /* Recording (23).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AE1FC43829000259BA /* Recording (23).m4a */; };
+		18E275151FC43844000259BA /* Recording (48).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274AF1FC43829000259BA /* Recording (48).m4a */; };
+		18E275161FC43844000259BA /* Recording (95).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B01FC43829000259BA /* Recording (95).m4a */; };
+		18E275171FC43844000259BA /* Recording (10).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B11FC4382A000259BA /* Recording (10).m4a */; };
+		18E275181FC43844000259BA /* Recording (66).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B21FC4382A000259BA /* Recording (66).m4a */; };
+		18E275191FC43844000259BA /* Recording (27).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B31FC4382B000259BA /* Recording (27).m4a */; };
+		18E2751A1FC43844000259BA /* Recording (41).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B41FC4382B000259BA /* Recording (41).m4a */; };
+		18E2751B1FC43844000259BA /* Recording (69).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B51FC4382B000259BA /* Recording (69).m4a */; };
+		18E2751C1FC43844000259BA /* Recording (72).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B61FC4382C000259BA /* Recording (72).m4a */; };
+		18E2751D1FC43844000259BA /* Recording (60).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B71FC4382C000259BA /* Recording (60).m4a */; };
+		18E2751E1FC43844000259BA /* Recording (73).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B81FC4382C000259BA /* Recording (73).m4a */; };
+		18E2751F1FC43844000259BA /* Recording (38).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274B91FC4382D000259BA /* Recording (38).m4a */; };
+		18E275201FC43844000259BA /* Recording (100).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BA1FC4382E000259BA /* Recording (100).m4a */; };
+		18E275211FC43844000259BA /* Recording (74).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BB1FC43830000259BA /* Recording (74).m4a */; };
+		18E275221FC43844000259BA /* Recording (78).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BC1FC43831000259BA /* Recording (78).m4a */; };
+		18E275231FC43844000259BA /* Recording (49).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BD1FC43832000259BA /* Recording (49).m4a */; };
+		18E275241FC43844000259BA /* Recording (42).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BE1FC43832000259BA /* Recording (42).m4a */; };
+		18E275251FC43844000259BA /* Recording (90).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274BF1FC43833000259BA /* Recording (90).m4a */; };
+		18E275261FC43844000259BA /* Recording (98).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C01FC43834000259BA /* Recording (98).m4a */; };
+		18E275271FC43844000259BA /* Recording (76).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C11FC43834000259BA /* Recording (76).m4a */; };
+		18E275281FC43844000259BA /* Recording (101).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C21FC43835000259BA /* Recording (101).m4a */; };
+		18E275291FC43844000259BA /* Recording (9).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C31FC43835000259BA /* Recording (9).m4a */; };
+		18E2752A1FC43844000259BA /* Recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C41FC43836000259BA /* Recording.m4a */; };
+		18E2752B1FC43844000259BA /* Recording (37).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C51FC43836000259BA /* Recording (37).m4a */; };
+		18E2752C1FC43844000259BA /* Recording (52).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C61FC43836000259BA /* Recording (52).m4a */; };
+		18E2752D1FC43844000259BA /* Recording (75).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C71FC43837000259BA /* Recording (75).m4a */; };
+		18E2752E1FC43844000259BA /* Recording (81).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C81FC43837000259BA /* Recording (81).m4a */; };
+		18E2752F1FC43844000259BA /* Recording (94).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274C91FC43837000259BA /* Recording (94).m4a */; };
+		18E275301FC43844000259BA /* Recording (89).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CA1FC43838000259BA /* Recording (89).m4a */; };
+		18E275311FC43844000259BA /* Recording (46).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CB1FC43838000259BA /* Recording (46).m4a */; };
+		18E275321FC43844000259BA /* Recording (31).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CC1FC43838000259BA /* Recording (31).m4a */; };
+		18E275331FC43844000259BA /* Recording (86).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CD1FC43839000259BA /* Recording (86).m4a */; };
+		18E275341FC43844000259BA /* Recording (28).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CE1FC43839000259BA /* Recording (28).m4a */; };
+		18E275351FC43844000259BA /* Recording (80).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274CF1FC43839000259BA /* Recording (80).m4a */; };
+		18E275361FC43844000259BA /* Recording (97).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D01FC4383A000259BA /* Recording (97).m4a */; };
+		18E275371FC43844000259BA /* Recording (25).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D11FC4383A000259BA /* Recording (25).m4a */; };
+		18E275381FC43844000259BA /* Recording (2).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D21FC4383A000259BA /* Recording (2).m4a */; };
+		18E275391FC43844000259BA /* Recording (61).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D31FC4383B000259BA /* Recording (61).m4a */; };
+		18E2753A1FC43844000259BA /* Recording (21).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D41FC4383B000259BA /* Recording (21).m4a */; };
+		18E2753B1FC43844000259BA /* Recording (55).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D51FC4383B000259BA /* Recording (55).m4a */; };
+		18E2753C1FC43844000259BA /* Recording (29).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D61FC4383C000259BA /* Recording (29).m4a */; };
+		18E2753D1FC43844000259BA /* Recording (50).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D71FC4383C000259BA /* Recording (50).m4a */; };
+		18E2753E1FC43844000259BA /* Recording (44).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D81FC4383C000259BA /* Recording (44).m4a */; };
+		18E2753F1FC43844000259BA /* Recording (47).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274D91FC4383C000259BA /* Recording (47).m4a */; };
+		18E275401FC43844000259BA /* Recording (34).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DA1FC4383D000259BA /* Recording (34).m4a */; };
+		18E275411FC43844000259BA /* Recording (88).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DB1FC4383D000259BA /* Recording (88).m4a */; };
+		18E275421FC43844000259BA /* Recording (6).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DC1FC4383D000259BA /* Recording (6).m4a */; };
+		18E275431FC43844000259BA /* Recording (36).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DD1FC4383E000259BA /* Recording (36).m4a */; };
+		18E275441FC43844000259BA /* Recording (53).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DE1FC4383E000259BA /* Recording (53).m4a */; };
+		18E275451FC43844000259BA /* Recording (30).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274DF1FC4383E000259BA /* Recording (30).m4a */; };
+		18E275461FC43844000259BA /* Recording (58).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E01FC4383E000259BA /* Recording (58).m4a */; };
+		18E275471FC43844000259BA /* Recording (65).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E11FC4383F000259BA /* Recording (65).m4a */; };
+		18E275481FC43844000259BA /* Recording (87).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E21FC4383F000259BA /* Recording (87).m4a */; };
+		18E275491FC43844000259BA /* Recording (4).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E31FC4383F000259BA /* Recording (4).m4a */; };
+		18E2754A1FC43844000259BA /* Recording (96).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E41FC4383F000259BA /* Recording (96).m4a */; };
+		18E2754B1FC43844000259BA /* Recording (15).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E51FC43840000259BA /* Recording (15).m4a */; };
+		18E2754C1FC43844000259BA /* Recording (18).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E61FC43840000259BA /* Recording (18).m4a */; };
+		18E2754D1FC43844000259BA /* Recording (19).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E71FC43840000259BA /* Recording (19).m4a */; };
+		18E2754E1FC43844000259BA /* Recording (33).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E81FC43841000259BA /* Recording (33).m4a */; };
+		18E2754F1FC43844000259BA /* Recording (71).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274E91FC43841000259BA /* Recording (71).m4a */; };
+		18E275501FC43844000259BA /* Recording (59).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274EA1FC43841000259BA /* Recording (59).m4a */; };
+		18E275511FC43844000259BA /* Recording (92).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274EB1FC43842000259BA /* Recording (92).m4a */; };
+		18E275521FC43844000259BA /* Recording (77).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274EC1FC43842000259BA /* Recording (77).m4a */; };
+		18E275531FC43844000259BA /* Recording (43).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274ED1FC43842000259BA /* Recording (43).m4a */; };
+		18E275541FC43844000259BA /* Recording (26).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274EE1FC43843000259BA /* Recording (26).m4a */; };
+		18E275551FC43844000259BA /* Recording (35).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274EF1FC43843000259BA /* Recording (35).m4a */; };
+		18E275561FC43844000259BA /* Recording (99).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18E274F01FC43843000259BA /* Recording (99).m4a */; };
 		18E900B61FBEC2720036F5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B51FBEC2720036F5D3 /* AppDelegate.swift */; };
 		18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E900B71FBEC2720036F5D3 /* ViewController.swift */; };
 		18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E900B91FBEC2720036F5D3 /* Main.storyboard */; };
@@ -50,7 +152,109 @@
 		18E2747D1FC36D8D000259BA /* CKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKButton.swift; sourceTree = "<group>"; };
 		18E2747F1FC37869000259BA /* SoundsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsScene.swift; sourceTree = "<group>"; };
 		18E274811FC37B38000259BA /* PurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
-		18E274851FC37F86000259BA /* soundboard recording */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "soundboard recording"; sourceTree = "<group>"; };
+		18E274881FC40F7A000259BA /* PreviewSongsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSongsController.swift; sourceTree = "<group>"; };
+		18E2748B1FC4381A000259BA /* Recording (5).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (5).m4a"; sourceTree = "<group>"; };
+		18E2748C1FC4381A000259BA /* Recording (84).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (84).m4a"; sourceTree = "<group>"; };
+		18E2748D1FC4381B000259BA /* Recording (14).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (14).m4a"; sourceTree = "<group>"; };
+		18E2748E1FC4381B000259BA /* Recording (16).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (16).m4a"; sourceTree = "<group>"; };
+		18E2748F1FC4381B000259BA /* Recording (79).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (79).m4a"; sourceTree = "<group>"; };
+		18E274901FC4381C000259BA /* Recording (63).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (63).m4a"; sourceTree = "<group>"; };
+		18E274911FC4381C000259BA /* Recording (70).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (70).m4a"; sourceTree = "<group>"; };
+		18E274921FC4381C000259BA /* Recording (79)_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (79)_1.m4a"; sourceTree = "<group>"; };
+		18E274931FC4381D000259BA /* Recording (20).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (20).m4a"; sourceTree = "<group>"; };
+		18E274941FC4381E000259BA /* Recording (8).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (8).m4a"; sourceTree = "<group>"; };
+		18E274951FC4381F000259BA /* Recording (45).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (45).m4a"; sourceTree = "<group>"; };
+		18E274961FC4381F000259BA /* Recording (82).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (82).m4a"; sourceTree = "<group>"; };
+		18E274971FC4381F000259BA /* Recording (56).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (56).m4a"; sourceTree = "<group>"; };
+		18E274981FC43820000259BA /* Recording (67).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (67).m4a"; sourceTree = "<group>"; };
+		18E274991FC43820000259BA /* Recording (91).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (91).m4a"; sourceTree = "<group>"; };
+		18E2749A1FC43821000259BA /* Recording (64).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (64).m4a"; sourceTree = "<group>"; };
+		18E2749B1FC43821000259BA /* Recording (7).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (7).m4a"; sourceTree = "<group>"; };
+		18E2749C1FC43822000259BA /* Recording (51).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (51).m4a"; sourceTree = "<group>"; };
+		18E2749D1FC43822000259BA /* Recording (54).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (54).m4a"; sourceTree = "<group>"; };
+		18E2749E1FC43822000259BA /* Recording (24).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (24).m4a"; sourceTree = "<group>"; };
+		18E2749F1FC43823000259BA /* Recording (22).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (22).m4a"; sourceTree = "<group>"; };
+		18E274A01FC43823000259BA /* Recording (32).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (32).m4a"; sourceTree = "<group>"; };
+		18E274A11FC43824000259BA /* Recording (85).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (85).m4a"; sourceTree = "<group>"; };
+		18E274A21FC43825000259BA /* Recording (11).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (11).m4a"; sourceTree = "<group>"; };
+		18E274A31FC43826000259BA /* Recording (40).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (40).m4a"; sourceTree = "<group>"; };
+		18E274A41FC43826000259BA /* Recording (62).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (62).m4a"; sourceTree = "<group>"; };
+		18E274A51FC43826000259BA /* Recording (3).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (3).m4a"; sourceTree = "<group>"; };
+		18E274A61FC43827000259BA /* Recording (83).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (83).m4a"; sourceTree = "<group>"; };
+		18E274A71FC43827000259BA /* Recording (68).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (68).m4a"; sourceTree = "<group>"; };
+		18E274A81FC43827000259BA /* Recording (93).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (93).m4a"; sourceTree = "<group>"; };
+		18E274A91FC43827000259BA /* Recording (13).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (13).m4a"; sourceTree = "<group>"; };
+		18E274AA1FC43828000259BA /* Recording (39).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (39).m4a"; sourceTree = "<group>"; };
+		18E274AB1FC43828000259BA /* Recording (12).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (12).m4a"; sourceTree = "<group>"; };
+		18E274AC1FC43828000259BA /* Recording (17).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (17).m4a"; sourceTree = "<group>"; };
+		18E274AD1FC43829000259BA /* Recording (57).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (57).m4a"; sourceTree = "<group>"; };
+		18E274AE1FC43829000259BA /* Recording (23).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (23).m4a"; sourceTree = "<group>"; };
+		18E274AF1FC43829000259BA /* Recording (48).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (48).m4a"; sourceTree = "<group>"; };
+		18E274B01FC43829000259BA /* Recording (95).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (95).m4a"; sourceTree = "<group>"; };
+		18E274B11FC4382A000259BA /* Recording (10).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (10).m4a"; sourceTree = "<group>"; };
+		18E274B21FC4382A000259BA /* Recording (66).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (66).m4a"; sourceTree = "<group>"; };
+		18E274B31FC4382B000259BA /* Recording (27).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (27).m4a"; sourceTree = "<group>"; };
+		18E274B41FC4382B000259BA /* Recording (41).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (41).m4a"; sourceTree = "<group>"; };
+		18E274B51FC4382B000259BA /* Recording (69).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (69).m4a"; sourceTree = "<group>"; };
+		18E274B61FC4382C000259BA /* Recording (72).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (72).m4a"; sourceTree = "<group>"; };
+		18E274B71FC4382C000259BA /* Recording (60).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (60).m4a"; sourceTree = "<group>"; };
+		18E274B81FC4382C000259BA /* Recording (73).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (73).m4a"; sourceTree = "<group>"; };
+		18E274B91FC4382D000259BA /* Recording (38).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (38).m4a"; sourceTree = "<group>"; };
+		18E274BA1FC4382E000259BA /* Recording (100).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (100).m4a"; sourceTree = "<group>"; };
+		18E274BB1FC43830000259BA /* Recording (74).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (74).m4a"; sourceTree = "<group>"; };
+		18E274BC1FC43831000259BA /* Recording (78).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (78).m4a"; sourceTree = "<group>"; };
+		18E274BD1FC43832000259BA /* Recording (49).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (49).m4a"; sourceTree = "<group>"; };
+		18E274BE1FC43832000259BA /* Recording (42).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (42).m4a"; sourceTree = "<group>"; };
+		18E274BF1FC43833000259BA /* Recording (90).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (90).m4a"; sourceTree = "<group>"; };
+		18E274C01FC43834000259BA /* Recording (98).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (98).m4a"; sourceTree = "<group>"; };
+		18E274C11FC43834000259BA /* Recording (76).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (76).m4a"; sourceTree = "<group>"; };
+		18E274C21FC43835000259BA /* Recording (101).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (101).m4a"; sourceTree = "<group>"; };
+		18E274C31FC43835000259BA /* Recording (9).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (9).m4a"; sourceTree = "<group>"; };
+		18E274C41FC43836000259BA /* Recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Recording.m4a; sourceTree = "<group>"; };
+		18E274C51FC43836000259BA /* Recording (37).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (37).m4a"; sourceTree = "<group>"; };
+		18E274C61FC43836000259BA /* Recording (52).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (52).m4a"; sourceTree = "<group>"; };
+		18E274C71FC43837000259BA /* Recording (75).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (75).m4a"; sourceTree = "<group>"; };
+		18E274C81FC43837000259BA /* Recording (81).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (81).m4a"; sourceTree = "<group>"; };
+		18E274C91FC43837000259BA /* Recording (94).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (94).m4a"; sourceTree = "<group>"; };
+		18E274CA1FC43838000259BA /* Recording (89).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (89).m4a"; sourceTree = "<group>"; };
+		18E274CB1FC43838000259BA /* Recording (46).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (46).m4a"; sourceTree = "<group>"; };
+		18E274CC1FC43838000259BA /* Recording (31).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (31).m4a"; sourceTree = "<group>"; };
+		18E274CD1FC43839000259BA /* Recording (86).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (86).m4a"; sourceTree = "<group>"; };
+		18E274CE1FC43839000259BA /* Recording (28).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (28).m4a"; sourceTree = "<group>"; };
+		18E274CF1FC43839000259BA /* Recording (80).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (80).m4a"; sourceTree = "<group>"; };
+		18E274D01FC4383A000259BA /* Recording (97).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (97).m4a"; sourceTree = "<group>"; };
+		18E274D11FC4383A000259BA /* Recording (25).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (25).m4a"; sourceTree = "<group>"; };
+		18E274D21FC4383A000259BA /* Recording (2).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (2).m4a"; sourceTree = "<group>"; };
+		18E274D31FC4383B000259BA /* Recording (61).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (61).m4a"; sourceTree = "<group>"; };
+		18E274D41FC4383B000259BA /* Recording (21).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (21).m4a"; sourceTree = "<group>"; };
+		18E274D51FC4383B000259BA /* Recording (55).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (55).m4a"; sourceTree = "<group>"; };
+		18E274D61FC4383C000259BA /* Recording (29).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (29).m4a"; sourceTree = "<group>"; };
+		18E274D71FC4383C000259BA /* Recording (50).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (50).m4a"; sourceTree = "<group>"; };
+		18E274D81FC4383C000259BA /* Recording (44).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (44).m4a"; sourceTree = "<group>"; };
+		18E274D91FC4383C000259BA /* Recording (47).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (47).m4a"; sourceTree = "<group>"; };
+		18E274DA1FC4383D000259BA /* Recording (34).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (34).m4a"; sourceTree = "<group>"; };
+		18E274DB1FC4383D000259BA /* Recording (88).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (88).m4a"; sourceTree = "<group>"; };
+		18E274DC1FC4383D000259BA /* Recording (6).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (6).m4a"; sourceTree = "<group>"; };
+		18E274DD1FC4383E000259BA /* Recording (36).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (36).m4a"; sourceTree = "<group>"; };
+		18E274DE1FC4383E000259BA /* Recording (53).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (53).m4a"; sourceTree = "<group>"; };
+		18E274DF1FC4383E000259BA /* Recording (30).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (30).m4a"; sourceTree = "<group>"; };
+		18E274E01FC4383E000259BA /* Recording (58).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (58).m4a"; sourceTree = "<group>"; };
+		18E274E11FC4383F000259BA /* Recording (65).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (65).m4a"; sourceTree = "<group>"; };
+		18E274E21FC4383F000259BA /* Recording (87).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (87).m4a"; sourceTree = "<group>"; };
+		18E274E31FC4383F000259BA /* Recording (4).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (4).m4a"; sourceTree = "<group>"; };
+		18E274E41FC4383F000259BA /* Recording (96).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (96).m4a"; sourceTree = "<group>"; };
+		18E274E51FC43840000259BA /* Recording (15).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (15).m4a"; sourceTree = "<group>"; };
+		18E274E61FC43840000259BA /* Recording (18).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (18).m4a"; sourceTree = "<group>"; };
+		18E274E71FC43840000259BA /* Recording (19).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (19).m4a"; sourceTree = "<group>"; };
+		18E274E81FC43841000259BA /* Recording (33).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (33).m4a"; sourceTree = "<group>"; };
+		18E274E91FC43841000259BA /* Recording (71).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (71).m4a"; sourceTree = "<group>"; };
+		18E274EA1FC43841000259BA /* Recording (59).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (59).m4a"; sourceTree = "<group>"; };
+		18E274EB1FC43842000259BA /* Recording (92).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (92).m4a"; sourceTree = "<group>"; };
+		18E274EC1FC43842000259BA /* Recording (77).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (77).m4a"; sourceTree = "<group>"; };
+		18E274ED1FC43842000259BA /* Recording (43).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (43).m4a"; sourceTree = "<group>"; };
+		18E274EE1FC43843000259BA /* Recording (26).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (26).m4a"; sourceTree = "<group>"; };
+		18E274EF1FC43843000259BA /* Recording (35).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (35).m4a"; sourceTree = "<group>"; };
+		18E274F01FC43843000259BA /* Recording (99).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recording (99).m4a"; sourceTree = "<group>"; };
 		18E900B21FBEC2720036F5D3 /* ChristamasBundleAppFiverr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristamasBundleAppFiverr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E900B51FBEC2720036F5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E900B71FBEC2720036F5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +321,7 @@
 			children = (
 				18E900B71FBEC2720036F5D3 /* ViewController.swift */,
 				18E274811FC37B38000259BA /* PurchasesViewController.swift */,
+				18E274881FC40F7A000259BA /* PreviewSongsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +342,115 @@
 				181E81581FC3574300F70061 /* Emitter.swift */,
 			);
 			path = Emitter;
+			sourceTree = "<group>";
+		};
+		18E2748A1FC437DB000259BA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18E274D21FC4383A000259BA /* Recording (2).m4a */,
+				18E274A51FC43826000259BA /* Recording (3).m4a */,
+				18E274E31FC4383F000259BA /* Recording (4).m4a */,
+				18E2748B1FC4381A000259BA /* Recording (5).m4a */,
+				18E274DC1FC4383D000259BA /* Recording (6).m4a */,
+				18E2749B1FC43821000259BA /* Recording (7).m4a */,
+				18E274941FC4381E000259BA /* Recording (8).m4a */,
+				18E274C31FC43835000259BA /* Recording (9).m4a */,
+				18E274B11FC4382A000259BA /* Recording (10).m4a */,
+				18E274A21FC43825000259BA /* Recording (11).m4a */,
+				18E274AB1FC43828000259BA /* Recording (12).m4a */,
+				18E274A91FC43827000259BA /* Recording (13).m4a */,
+				18E2748D1FC4381B000259BA /* Recording (14).m4a */,
+				18E274E51FC43840000259BA /* Recording (15).m4a */,
+				18E2748E1FC4381B000259BA /* Recording (16).m4a */,
+				18E274AC1FC43828000259BA /* Recording (17).m4a */,
+				18E274E61FC43840000259BA /* Recording (18).m4a */,
+				18E274E71FC43840000259BA /* Recording (19).m4a */,
+				18E274931FC4381D000259BA /* Recording (20).m4a */,
+				18E274D41FC4383B000259BA /* Recording (21).m4a */,
+				18E2749F1FC43823000259BA /* Recording (22).m4a */,
+				18E274AE1FC43829000259BA /* Recording (23).m4a */,
+				18E2749E1FC43822000259BA /* Recording (24).m4a */,
+				18E274D11FC4383A000259BA /* Recording (25).m4a */,
+				18E274EE1FC43843000259BA /* Recording (26).m4a */,
+				18E274B31FC4382B000259BA /* Recording (27).m4a */,
+				18E274CE1FC43839000259BA /* Recording (28).m4a */,
+				18E274D61FC4383C000259BA /* Recording (29).m4a */,
+				18E274DF1FC4383E000259BA /* Recording (30).m4a */,
+				18E274CC1FC43838000259BA /* Recording (31).m4a */,
+				18E274A01FC43823000259BA /* Recording (32).m4a */,
+				18E274E81FC43841000259BA /* Recording (33).m4a */,
+				18E274DA1FC4383D000259BA /* Recording (34).m4a */,
+				18E274EF1FC43843000259BA /* Recording (35).m4a */,
+				18E274DD1FC4383E000259BA /* Recording (36).m4a */,
+				18E274C51FC43836000259BA /* Recording (37).m4a */,
+				18E274B91FC4382D000259BA /* Recording (38).m4a */,
+				18E274AA1FC43828000259BA /* Recording (39).m4a */,
+				18E274A31FC43826000259BA /* Recording (40).m4a */,
+				18E274B41FC4382B000259BA /* Recording (41).m4a */,
+				18E274BE1FC43832000259BA /* Recording (42).m4a */,
+				18E274ED1FC43842000259BA /* Recording (43).m4a */,
+				18E274D81FC4383C000259BA /* Recording (44).m4a */,
+				18E274951FC4381F000259BA /* Recording (45).m4a */,
+				18E274CB1FC43838000259BA /* Recording (46).m4a */,
+				18E274D91FC4383C000259BA /* Recording (47).m4a */,
+				18E274AF1FC43829000259BA /* Recording (48).m4a */,
+				18E274BD1FC43832000259BA /* Recording (49).m4a */,
+				18E274D71FC4383C000259BA /* Recording (50).m4a */,
+				18E2749C1FC43822000259BA /* Recording (51).m4a */,
+				18E274C61FC43836000259BA /* Recording (52).m4a */,
+				18E274DE1FC4383E000259BA /* Recording (53).m4a */,
+				18E2749D1FC43822000259BA /* Recording (54).m4a */,
+				18E274D51FC4383B000259BA /* Recording (55).m4a */,
+				18E274971FC4381F000259BA /* Recording (56).m4a */,
+				18E274AD1FC43829000259BA /* Recording (57).m4a */,
+				18E274E01FC4383E000259BA /* Recording (58).m4a */,
+				18E274EA1FC43841000259BA /* Recording (59).m4a */,
+				18E274B71FC4382C000259BA /* Recording (60).m4a */,
+				18E274D31FC4383B000259BA /* Recording (61).m4a */,
+				18E274A41FC43826000259BA /* Recording (62).m4a */,
+				18E274901FC4381C000259BA /* Recording (63).m4a */,
+				18E2749A1FC43821000259BA /* Recording (64).m4a */,
+				18E274E11FC4383F000259BA /* Recording (65).m4a */,
+				18E274B21FC4382A000259BA /* Recording (66).m4a */,
+				18E274981FC43820000259BA /* Recording (67).m4a */,
+				18E274A71FC43827000259BA /* Recording (68).m4a */,
+				18E274B51FC4382B000259BA /* Recording (69).m4a */,
+				18E274911FC4381C000259BA /* Recording (70).m4a */,
+				18E274E91FC43841000259BA /* Recording (71).m4a */,
+				18E274B61FC4382C000259BA /* Recording (72).m4a */,
+				18E274B81FC4382C000259BA /* Recording (73).m4a */,
+				18E274BB1FC43830000259BA /* Recording (74).m4a */,
+				18E274C71FC43837000259BA /* Recording (75).m4a */,
+				18E274C11FC43834000259BA /* Recording (76).m4a */,
+				18E274EC1FC43842000259BA /* Recording (77).m4a */,
+				18E274BC1FC43831000259BA /* Recording (78).m4a */,
+				18E274921FC4381C000259BA /* Recording (79)_1.m4a */,
+				18E2748F1FC4381B000259BA /* Recording (79).m4a */,
+				18E274CF1FC43839000259BA /* Recording (80).m4a */,
+				18E274C81FC43837000259BA /* Recording (81).m4a */,
+				18E274961FC4381F000259BA /* Recording (82).m4a */,
+				18E274A61FC43827000259BA /* Recording (83).m4a */,
+				18E2748C1FC4381A000259BA /* Recording (84).m4a */,
+				18E274A11FC43824000259BA /* Recording (85).m4a */,
+				18E274CD1FC43839000259BA /* Recording (86).m4a */,
+				18E274E21FC4383F000259BA /* Recording (87).m4a */,
+				18E274DB1FC4383D000259BA /* Recording (88).m4a */,
+				18E274CA1FC43838000259BA /* Recording (89).m4a */,
+				18E274BF1FC43833000259BA /* Recording (90).m4a */,
+				18E274991FC43820000259BA /* Recording (91).m4a */,
+				18E274EB1FC43842000259BA /* Recording (92).m4a */,
+				18E274A81FC43827000259BA /* Recording (93).m4a */,
+				18E274C91FC43837000259BA /* Recording (94).m4a */,
+				18E274B01FC43829000259BA /* Recording (95).m4a */,
+				18E274E41FC4383F000259BA /* Recording (96).m4a */,
+				18E274D01FC4383A000259BA /* Recording (97).m4a */,
+				18E274C01FC43834000259BA /* Recording (98).m4a */,
+				18E274F01FC43843000259BA /* Recording (99).m4a */,
+				18E274BA1FC4382E000259BA /* Recording (100).m4a */,
+				18E274C21FC43835000259BA /* Recording (101).m4a */,
+				18E274C41FC43836000259BA /* Recording.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		18E900A91FBEC2720036F5D3 = {
@@ -164,12 +478,12 @@
 		18E900B41FBEC2720036F5D3 /* ChristamasBundleAppFiverr */ = {
 			isa = PBXGroup;
 			children = (
+				18E2748A1FC437DB000259BA /* Sounds */,
 				18E274871FC38055000259BA /* Emitter */,
 				18E274841FC37D80000259BA /* Helper */,
 				18E274831FC37D6C000259BA /* Controllers */,
 				1808077D1FC1A94B0071AD37 /* Scenes */,
 				18E900B91FBEC2720036F5D3 /* Main.storyboard */,
-				18E274851FC37F86000259BA /* soundboard recording */,
 				18E900BC1FBEC2720036F5D3 /* Assets.xcassets */,
 				18E900BE1FBEC2720036F5D3 /* LaunchScreen.storyboard */,
 				18E900C11FBEC2720036F5D3 /* Info.plist */,
@@ -334,10 +648,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E275541FC43844000259BA /* Recording (26).m4a in Resources */,
+				18E274F91FC43844000259BA /* Recording (20).m4a in Resources */,
+				18E2752E1FC43844000259BA /* Recording (81).m4a in Resources */,
+				18E2753E1FC43844000259BA /* Recording (44).m4a in Resources */,
+				18E275421FC43844000259BA /* Recording (6).m4a in Resources */,
+				18E275341FC43844000259BA /* Recording (28).m4a in Resources */,
+				18E2751A1FC43844000259BA /* Recording (41).m4a in Resources */,
+				18E2752A1FC43844000259BA /* Recording.m4a in Resources */,
+				18E275201FC43844000259BA /* Recording (100).m4a in Resources */,
 				18E900C01FBEC2720036F5D3 /* LaunchScreen.storyboard in Resources */,
+				18E274F61FC43844000259BA /* Recording (63).m4a in Resources */,
+				18E2754F1FC43844000259BA /* Recording (71).m4a in Resources */,
+				18E275391FC43844000259BA /* Recording (61).m4a in Resources */,
+				18E275461FC43844000259BA /* Recording (58).m4a in Resources */,
+				18E275511FC43844000259BA /* Recording (92).m4a in Resources */,
+				18E2753F1FC43844000259BA /* Recording (47).m4a in Resources */,
+				18E274FA1FC43844000259BA /* Recording (8).m4a in Resources */,
+				18E2750B1FC43844000259BA /* Recording (3).m4a in Resources */,
+				18E2753C1FC43844000259BA /* Recording (29).m4a in Resources */,
+				18E274F81FC43844000259BA /* Recording (79)_1.m4a in Resources */,
+				18E274F31FC43844000259BA /* Recording (14).m4a in Resources */,
+				18E275451FC43844000259BA /* Recording (30).m4a in Resources */,
+				18E2753A1FC43844000259BA /* Recording (21).m4a in Resources */,
+				18E2751F1FC43844000259BA /* Recording (38).m4a in Resources */,
+				18E2754B1FC43844000259BA /* Recording (15).m4a in Resources */,
+				18E275051FC43844000259BA /* Recording (22).m4a in Resources */,
+				18E275021FC43844000259BA /* Recording (51).m4a in Resources */,
+				18E275031FC43844000259BA /* Recording (54).m4a in Resources */,
+				18E275001FC43844000259BA /* Recording (64).m4a in Resources */,
+				18E275521FC43844000259BA /* Recording (77).m4a in Resources */,
 				18E900BD1FBEC2720036F5D3 /* Assets.xcassets in Resources */,
-				18E274861FC37F87000259BA /* soundboard recording in Resources */,
+				18E274FE1FC43844000259BA /* Recording (67).m4a in Resources */,
+				18E275131FC43844000259BA /* Recording (57).m4a in Resources */,
+				18E274F11FC43844000259BA /* Recording (5).m4a in Resources */,
+				18E2751D1FC43844000259BA /* Recording (60).m4a in Resources */,
+				18E275121FC43844000259BA /* Recording (17).m4a in Resources */,
+				18E275191FC43844000259BA /* Recording (27).m4a in Resources */,
+				18E2750D1FC43844000259BA /* Recording (68).m4a in Resources */,
+				18E275151FC43844000259BA /* Recording (48).m4a in Resources */,
+				18E275371FC43844000259BA /* Recording (25).m4a in Resources */,
+				18E275061FC43844000259BA /* Recording (32).m4a in Resources */,
+				18E2750F1FC43844000259BA /* Recording (13).m4a in Resources */,
+				18E2752D1FC43844000259BA /* Recording (75).m4a in Resources */,
+				18E2751B1FC43844000259BA /* Recording (69).m4a in Resources */,
+				18E2754E1FC43844000259BA /* Recording (33).m4a in Resources */,
+				18E275531FC43844000259BA /* Recording (43).m4a in Resources */,
+				18E275471FC43844000259BA /* Recording (65).m4a in Resources */,
+				18E2753B1FC43844000259BA /* Recording (55).m4a in Resources */,
+				18E275491FC43844000259BA /* Recording (4).m4a in Resources */,
+				18E275331FC43844000259BA /* Recording (86).m4a in Resources */,
+				18E274F71FC43844000259BA /* Recording (70).m4a in Resources */,
+				18E275141FC43844000259BA /* Recording (23).m4a in Resources */,
+				18E275221FC43844000259BA /* Recording (78).m4a in Resources */,
+				18E274FC1FC43844000259BA /* Recording (82).m4a in Resources */,
+				18E275381FC43844000259BA /* Recording (2).m4a in Resources */,
+				18E2753D1FC43844000259BA /* Recording (50).m4a in Resources */,
+				18E275281FC43844000259BA /* Recording (101).m4a in Resources */,
+				18E275411FC43844000259BA /* Recording (88).m4a in Resources */,
+				18E275071FC43844000259BA /* Recording (85).m4a in Resources */,
+				18E275311FC43844000259BA /* Recording (46).m4a in Resources */,
+				18E275091FC43844000259BA /* Recording (40).m4a in Resources */,
+				18E275431FC43844000259BA /* Recording (36).m4a in Resources */,
+				18E275271FC43844000259BA /* Recording (76).m4a in Resources */,
+				18E275161FC43844000259BA /* Recording (95).m4a in Resources */,
+				18E275211FC43844000259BA /* Recording (74).m4a in Resources */,
+				18E275081FC43844000259BA /* Recording (11).m4a in Resources */,
+				18E275291FC43844000259BA /* Recording (9).m4a in Resources */,
+				18E275231FC43844000259BA /* Recording (49).m4a in Resources */,
+				18E275181FC43844000259BA /* Recording (66).m4a in Resources */,
+				18E2750E1FC43844000259BA /* Recording (93).m4a in Resources */,
+				18E2752B1FC43844000259BA /* Recording (37).m4a in Resources */,
+				18E275101FC43844000259BA /* Recording (39).m4a in Resources */,
+				18E275111FC43844000259BA /* Recording (12).m4a in Resources */,
+				18E2754A1FC43844000259BA /* Recording (96).m4a in Resources */,
+				18E274F21FC43844000259BA /* Recording (84).m4a in Resources */,
+				18E274FB1FC43844000259BA /* Recording (45).m4a in Resources */,
+				18E275171FC43844000259BA /* Recording (10).m4a in Resources */,
+				18E274F51FC43844000259BA /* Recording (79).m4a in Resources */,
 				18E900BB1FBEC2720036F5D3 /* Main.storyboard in Resources */,
+				18E275301FC43844000259BA /* Recording (89).m4a in Resources */,
+				18E275241FC43844000259BA /* Recording (42).m4a in Resources */,
+				18E275401FC43844000259BA /* Recording (34).m4a in Resources */,
+				18E275321FC43844000259BA /* Recording (31).m4a in Resources */,
+				18E275481FC43844000259BA /* Recording (87).m4a in Resources */,
+				18E275351FC43844000259BA /* Recording (80).m4a in Resources */,
+				18E274FF1FC43844000259BA /* Recording (91).m4a in Resources */,
+				18E275251FC43844000259BA /* Recording (90).m4a in Resources */,
+				18E275361FC43844000259BA /* Recording (97).m4a in Resources */,
+				18E2751C1FC43844000259BA /* Recording (72).m4a in Resources */,
+				18E275501FC43844000259BA /* Recording (59).m4a in Resources */,
+				18E2752F1FC43844000259BA /* Recording (94).m4a in Resources */,
+				18E2752C1FC43844000259BA /* Recording (52).m4a in Resources */,
+				18E275011FC43844000259BA /* Recording (7).m4a in Resources */,
+				18E275441FC43844000259BA /* Recording (53).m4a in Resources */,
+				18E2750C1FC43844000259BA /* Recording (83).m4a in Resources */,
+				18E2754C1FC43844000259BA /* Recording (18).m4a in Resources */,
+				18E2750A1FC43844000259BA /* Recording (62).m4a in Resources */,
+				18E275261FC43844000259BA /* Recording (98).m4a in Resources */,
+				18E2754D1FC43844000259BA /* Recording (19).m4a in Resources */,
+				18E2751E1FC43844000259BA /* Recording (73).m4a in Resources */,
+				18E275551FC43844000259BA /* Recording (35).m4a in Resources */,
+				18E275561FC43844000259BA /* Recording (99).m4a in Resources */,
+				18E274F41FC43844000259BA /* Recording (16).m4a in Resources */,
+				18E275041FC43844000259BA /* Recording (24).m4a in Resources */,
+				18E274FD1FC43844000259BA /* Recording (56).m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +931,7 @@
 				18E274801FC37869000259BA /* SoundsScene.swift in Sources */,
 				18E900B81FBEC2720036F5D3 /* ViewController.swift in Sources */,
 				1808077C1FC1A90D0071AD37 /* CustomScene.swift in Sources */,
+				18E274891FC40F7A000259BA /* PreviewSongsController.swift in Sources */,
 				1808077A1FC198020071AD37 /* Extensions.swift in Sources */,
 				18E2747E1FC36D8D000259BA /* CKButton.swift in Sources */,
 				181E81591FC3574300F70061 /* Emitter.swift in Sources */,

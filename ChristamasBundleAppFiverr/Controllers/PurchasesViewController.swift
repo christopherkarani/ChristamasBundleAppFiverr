@@ -8,11 +8,20 @@
 
 import UIKit
 
-class PurchasesViewController: UIViewController {
+class PurchasesViewController: UITableViewController {
+    
+    let tableLabels = ["Preview Sounds", "Purchase Sounds"]
+    let cellID = "CellID"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupNavigationBar()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
+        
+        
     }
     
     func setupNavigationBar () {
@@ -27,3 +36,38 @@ class PurchasesViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
 }
+
+//DataSource
+extension PurchasesViewController  {
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tableLabels.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let label = tableLabels[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
+        cell.textLabel?.text = label
+        cell.accessoryType = .disclosureIndicator
+        return cell
+    }
+}
+
+extension PurchasesViewController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            handlePresentPreviewSongsController()
+        }
+        
+    }
+    
+    private func handlePresentPreviewSongsController() {
+        let previewSongsViewController = PreviewSongsController()
+        navigationController?.pushViewController(previewSongsViewController, animated: true)
+    }
+}
+
+// DELAGATE
